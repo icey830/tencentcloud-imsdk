@@ -1,0 +1,22 @@
+{
+  "name": "lyhiving/tentcentcloud",
+  "description": "Tentcent Cloud IM SDK",
+  "keywords": ["Tentcent Cloud","IM","SDK"],
+  "homepage": "https://github.com/lyhiving/tencentcloud-imsdk",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lyhiving",
+      "email": "lyhiving@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-gd": "*"
+  },
+  "autoload": {
+    "psr-4": { "lyhiving\\tencentcloud\\": "src/" }
+  },
+  "minimum-stability": "dev"
+}
